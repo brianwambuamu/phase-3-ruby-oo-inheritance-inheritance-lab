@@ -1,3 +1,14 @@
-class Student 
+class Student < User
+    
+    def initialize
+        @knowledge = []
+    end
+
+    def learn(string)
+        @knowledge << string
+    end
+
+
 
 end
+# Student.new("science")
